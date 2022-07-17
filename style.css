@@ -1,0 +1,723 @@
+@import url('http://fonts.cdnfonts.com/css/gilroy-bold');
+                
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+    min-height: 100vh;
+    width: 100%;
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    color: #F7F7F7;
+    background-color: #f7f7f7;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header .page-logo
+{
+    width: 33.03px;
+    height: 37.58px;
+}
+
+header .page-logo img
+{
+    width: 100%;
+    height: 100%;
+}
+
+header .page-form
+{
+    position: relative;
+}
+
+header .page-form form
+{
+    display: none;
+}
+
+header .page-form .fa-search
+{
+    width: 12.67px;
+    height: 10.67px;
+    color: #200e32;
+    margin-top: 10px;
+    position: absolute;
+    left: 80px;
+}
+
+header .profile
+{
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    row-gap: 6rem;
+}
+
+.profile img
+{
+    max-width:33.03px;
+    height: 37.58px;
+    width: 100%;
+    height: 100%;
+    border-radius: 80px;
+}
+
+.profile .fa-shopping-bag
+{
+    width: 12.67px;
+    height: 10.67px;
+    color: #200e32;
+    margin-top: 10px;
+}
+
+main
+{
+    margin-top: 30px;
+}
+
+.main-contents
+{
+    display: flex;
+    margin-top: 70px;
+    column-gap: 3rem;
+}
+
+
+.content-container
+{
+    width: 100%;
+}
+
+
+
+.main-contents .headings hgroup h1
+{
+    font-size: 2.5rem;
+    width: 257px;
+    height: 3.7px;
+    line-height:46.88px;
+    color: #000;
+    font-family: 'Gilroy-Bold', sans-serif;
+}
+
+.main-contents .headings hgroup h3
+{
+    font-size: 1.25rem;
+    color: #000;
+    opacity: 60%;
+    line-height: 2.93rem;
+    height: 50px;
+    margin-top:5.5rem;
+    font-family: 'Gilroy-Bold', sans-serif;
+}
+
+.main-contents button
+{
+    font-size:0.5rem;
+    color: #fff;
+    background-color: #000;
+    margin-top: 15px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    display: block;
+    max-width: 54.45px;
+    min-height: 17.93px;
+    width: 100%;
+    height: 100%;
+    border-radius: none;
+}
+
+.main-contents .hero-image
+{
+    transform: translateY(-52px);    
+    margin-left: 50px;
+}
+
+.main-contents .hero-image img
+{
+    display: block;
+}
+
+
+.main-contents .numberline
+{
+    margin-top: 15px;
+    padding-block:15px;
+}
+
+.main-contents .numberline h4
+{
+    color: #000;
+}
+
+.main-contents .numberline h2
+{
+    font-size: 1.25rem;
+    margin-top: 15px;
+    line-height: 23.44px;
+    color: #000;
+    width: 257px;
+    font-family: 'Gilroy-Light', sans-serif;
+}
+
+.main-contents .numberline h4 span
+{
+    opacity: 50%;
+}
+
+.main-contents .numberline hr
+{
+    margin-top: 10px;
+    height: 1px;
+    width: 160px;
+    position: relative;
+    display: block;
+    overflow: visible;
+    opacity: 50%;
+}
+
+.main-contents .numberline hr:before
+{
+    background-color: black;
+    content:'';
+    display: block;
+    left: 0;
+    position: absolute;
+    height: 2px;
+    top: -2;
+    width: 50%;
+    z-index: 1;
+}
+
+/*  Aside starts */
+.main-contents .aside
+{
+    position: relative;
+    right: 60px;
+}
+
+.main-contents .aside .dot
+{
+    background-color: #fff;
+    border: 1px solid #000;
+    height: 25px;
+    width: 25px;
+    border-radius: 25px;
+    display: inline-block;
+}
+
+.main-contents .aside hr
+{
+    background-color: #000;
+    height: 95%;
+    position: absolute;
+    left: 10px;
+    bottom: 1px;
+    width: 3px;
+}
+
+/* Aside ends */
+
+main .details
+{
+    /*background-color: green;*/
+}
+
+main .details .first-detail
+{
+    margin-top: 10px;
+    display: flex;
+    column-gap: 20px;
+    background-color: #fff;
+    color: #000;
+    position: relative;
+    box-shadow: 5px 5px 54px #a6a7ac, -5px -5px 54px #ffffff;
+}
+
+main .details .first-detail img
+{
+    max-width: 100%;
+    min-height: 100%;
+}
+
+main .details .first-detail .about h3
+{
+    font-size: 16px;
+    width: 130px;
+    word-spacing: 4px;
+    font-family: 'Poppins', sans-serif;
+}
+
+main .details .first-detail .about h2
+{
+    font-size: 20px;
+    width: 120px;
+    word-spacing: 4px;
+    font-weight: 900;
+    margin-top: 25px;
+    font-family: 'Gilroy-Bold', sans-serif;
+}
+
+main .details .first-detail .fa-plus
+{
+    font-size: 24px;
+    padding: 8px;
+    border-radius: 10px;
+    word-spacing: 4px;
+    background-color: #000;
+    color: #fff; 
+    position: absolute;
+    bottom: 12px;
+    right: 10px;
+}
+
+main .details .second-detail
+{
+    margin-top: 40px;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    column-gap: 16px;
+    background-color: #fff;
+    color: #000;
+    position: relative;
+    box-shadow: 5px 5px 54px #a6a7ac, -5px -5px 54px #ffffff;
+}
+
+main .details .second-detail .fa-plus
+{
+    font-size: 24px;
+    padding: 8px;
+    border-radius: 10px;
+    word-spacing: 4px;
+    background-color: #000;
+    color: #fff; 
+    position: absolute;
+    bottom: 12px;
+    right: 10px;
+}
+
+main .details .second-detail .about h3
+{
+    font-size: 16px;
+    width: 130px;
+    word-spacing: 4px;
+    font-family: 'Poppins', sans-serif;
+}
+
+main .details .second-detail .about h2
+{
+    font-size: 20px;
+    width: 120px;
+    word-spacing: 4px;
+    font-weight: 900;
+    margin-top: 15px;
+    font-family: 'Gilroy-Bold', sans-serif;
+}
+
+main .details .second-detail img
+{
+    max-width: 100%;
+    min-height: 100%;
+}
+
+
+
+@media screen and (min-width: 1024px){
+ /* page header */
+    header .page-logo
+{
+    width: 80px;
+    height: 59.81px;
+}
+
+header .page-logo img
+{
+    width: 100%;
+    height: 100%;
+}
+
+
+.profile img
+{
+    max-width:66.92px;
+    height:76.15px;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+
+.profile .fa-shopping-bag
+{
+    width: 23.75px;
+    height: 20px;
+    color: #200e32;
+    background-color: #F7F7F7;
+    margin-top: 10px;
+}
+
+/* End of page header */
+
+    .container
+    {
+        max-width: 1024px;
+        width: 100%;
+        height: 100%;
+    }
+
+    header .page-form
+    {
+        width: 732px;
+        height: 59px;
+    }
+
+    header .page-form form
+    {
+        display: block;
+        max-width: 100%;
+        min-height: 100%;
+    }
+
+    header .page-form form input[type="text"]
+    {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: 50px;
+        padding-block: 20px;
+        padding-left: 90px;
+        font-size: 25px;
+        line-height: 37.5px;
+        font-family: 'Poppins';
+        font-weight: 500;
+        opacity: 25%;
+    }
+
+    header .page-form .fa-search
+    {
+        width:20px;
+        height: 20px;
+        color: #200e32;
+        position: absolute;
+        left: 30px;
+        top: 15px;
+        text-transform: capitalize;
+    }
+
+    .content-container
+    {
+        padding-bottom: 0;
+        margin-bottom: -520px;
+        height: auto;
+    }
+
+    .main-contents
+    {
+        position: relative;
+    }
+
+    .main-contents .hero-image
+    {
+        transform: translateY(-540px);    
+        margin-left:410px;
+    }
+
+    .main-contents .hero-image img
+    {
+        display: block;
+        width: 630px;
+        height: 649px;
+        width: 100%;
+    }
+
+    .main-contents .headings hgroup h1
+    {
+        font-size: 80px;
+        max-width: 100%;
+        width:416px;
+        height: 198px;
+        line-height:93.75px;
+        color: #000;
+        font-family: 'Gilroy-Bold', sans-serif;
+        padding-top: 100px;
+    }
+
+    .main-contents .headings hgroup h3
+    {
+        font-size: 2.5rem;
+        width: 132px;
+        color: #000;
+        opacity: 60%;
+        line-height: 2.93rem;
+        height: 50px;
+        margin-top:100px;
+        font-family: 'Gilroy-Bold', sans-serif;
+        padding-top: 90px;
+    }
+
+    .main-contents button
+    {
+        font-size:16px;
+        color: #fff;
+        background-color: #000;
+        margin-top: 85px;
+        font-family: 'Gilroy-Bold', sans-serif;
+        display: block;
+        max-width: 164px;
+        min-height: 64px;
+        width: 100%;
+        height: 100%;
+        border-radius: 0px;
+    }
+
+    .main-contents .numberline
+    {
+        display: none;
+    }
+
+
+    /*  Aside starts */
+
+     .main-contents .aside
+    {
+        position: relative;
+        height: 200px;
+        margin-top:200px;
+        left: 7px;
+    }
+
+    .main-contents .aside .dot
+    {
+        background-color: #fff;
+        border: 1px solid #000;
+        height: 20px;
+        width: 20px;
+        border-radius: 25px;
+        display: inline-block;
+    }
+
+
+    .main-contents .aside hr
+    {
+        background-color: #000;
+        height: 90%;
+        position: absolute;
+        left: 8px;
+        bottom: 1px;
+        width: 3px;
+    }
+
+    /* Aside ends */
+
+
+    /*  shoe details start*/
+
+    .details
+    {
+        display: flex;
+        gap: 20px;
+        justify-content: space-around;
+    }
+
+    .details .numberline
+    {
+        margin-top: 15px;
+        padding-block:15px;
+        font-size: 20px;
+        color: #000;
+        width: 232px;
+        max-width: 100%;
+    }
+
+    .details .numberline h4
+    {
+        color: #000;
+        font-size: 20px;
+        width: 40px;
+        height: 20px;
+        line-height: 23.44px;
+        font-family: 'Gilroy-Bold', sans-serif;
+        margin-top: 80px;
+    }
+
+    .details .numberline h4 span
+    {
+        opacity: 50%;
+    }
+
+    .details .numberline hr
+    {
+        margin-top: 20px;
+        height: 1px;
+        width: 100%;
+        position: relative;
+        display: block;
+        overflow: visible;
+        opacity: 50%;
+    }
+
+    .details .numberline hr:before
+    {
+        background-color: black;
+        content:'';
+        display: block;
+        left: 0;
+        position: absolute;
+        height: 2px;
+        top: -2;
+        width: 50%;
+        z-index: 1;
+    }
+
+    .details .fa-arrow-left
+    {
+        background-color: black;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        padding-top: 10px ;
+        padding-left: 12px ;
+        margin-top:100px;
+    }
+
+    .details .fa-arrow-right
+    {
+        background-color: black;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        padding-top: 10px ;
+        padding-left: 12px ;
+        margin-top:100px;
+    }
+
+    /* First details start */
+  
+    main .details .first-detail
+    {
+        display: flex;
+        justify-content:start;
+        align-items: center;
+        width: 380px;
+        height: 144px;
+        background-color: #fff;
+        box-shadow: 5px 5px 54px #a6a7ac, -5px -5px 54px #ffffff;
+        column-gap: 20px;
+        color: #000;
+        position: relative;
+        margin-top: 40px;
+    }
+
+    main .details .first-detail img
+    {
+        max-width: 132.04px;
+        min-height:73.76px;    
+    }
+
+    main .details .first-detail .about h3
+    {
+        font-size: 18px;
+        width: 110px;
+        height: 54px;
+        word-spacing: 4px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    main .details .first-detail .about h2
+    {
+        font-size: 30px;
+        line-height: 35.1px;
+        width:90;
+        height: 37px;
+        word-spacing: 4px;
+        font-weight: 900;
+        margin-top: 25px;
+        font-family: 'Gilroy-Bold', sans-serif;
+    }
+
+    main .details .first-detail .fa-plus
+    {
+        font-size: 24px;
+        padding: 8px;
+        border-radius: 10px;
+        word-spacing: 4px;
+        background-color: #000;
+        color: #fff; 
+        position: absolute;
+        bottom: 12px;
+        right: 10px;
+    }
+
+    /* First details end */
+
+    /* s details start */
+  
+    main .details .second-detail
+    {
+        display: flex;
+        justify-content:start;
+        align-items: center;
+        width: 380px;
+        height: 144px;
+        background-color: #fff;
+        box-shadow: 5px 5px 54px #a6a7ac, -5px -5px 54px #ffffff;
+        column-gap: 20px;
+        color: #000;
+        position: relative;
+    }
+
+    main .details .second-detail img
+    {
+        max-width: 132.04px;
+        min-height:73.76px;    
+    }
+
+    main .details .second-detail .about h3
+    {
+        font-size: 18px;
+        width: 110px;
+        height: 54px;
+        word-spacing: 4px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    main .details .second-detail .about h2
+    {
+        font-size: 30px;
+        line-height: 35.1px;
+        width:90;
+        height: 37px;
+        word-spacing: 4px;
+        font-weight: 900;
+        margin-top: 25px;
+        font-family: 'Gilroy-Bold', sans-serif;
+    }
+
+    main .details .second-detail .fa-plus
+    {
+        font-size: 24px;
+        padding: 8px;
+        border-radius: 10px;
+        word-spacing: 4px;
+        background-color: #000;
+        color: #fff; 
+        position: absolute;
+        bottom: 12px;
+        right: 10px;
+    }
+
+    /* second details end */
+
+}
+
